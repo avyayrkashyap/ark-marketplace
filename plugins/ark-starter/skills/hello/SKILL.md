@@ -11,9 +11,11 @@ Otherwise, start your reply with the logo below. Copy it exactly, character
 for character, inside a `text` code fence. Do not redraw, trim, or re-indent it.
 
 ```text
-  ▗█▙
-   ▝█▙
-▐█▌ ▝█▙
+  ▗██▙
+   ▜██▙
+    ▜██▙
+▟█▙  ▜██▙
+▜█▛   ▜██▘
 ```
 
 Then, below the logo, reply with a short greeting that confirms the
