@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ark-starter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Starter plugin with an example skill. Copy it to make new plugins.",
   "author": {
     "name": "Avyay Kashyap",

@@ -52,5 +52,9 @@ plugins/<name>/
    claude plugin validate .
    ```
 
+To turn a logo into terminal art for a skill, run
+`python3 scripts/img2blocks.py path/to/logo.png 60` (needs Pillow) and paste
+the output into a `text` code fence in the skill's SKILL.md.
+
 Bump `version` in both manifests when you release changes. Claude Code only
 updates installed plugins when the version changes.
