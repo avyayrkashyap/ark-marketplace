@@ -1,0 +1,13 @@
+{
+  "description": "Show the ARK logo instantly when the user runs /hello, so the model doesn't have to type it out",
+  "hooks": {
+    "UserPromptExpansion": [
+      {
+        "matcher": "^(ark-starter:)?hello$",
+        "hooks": [
+          { "type": "command", "command": "cat", "args": ["${CLAUDE_PLUGIN_ROOT}/assets/banner.json"] }
+        ]
+      }
+    ]
+  }
+}

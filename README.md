@@ -53,9 +53,15 @@ plugins/<name>/
    claude plugin validate .
    ```
 
-To turn a logo into terminal art for a skill, run
-`python3 scripts/img2blocks.py path/to/logo.png 60` (needs Pillow) and paste
-the output into a `text` code fence in the skill's SKILL.md.
+To turn a logo into terminal art, run
+`python3 scripts/img2blocks.py path/to/logo.png 20` (needs Pillow), then tidy
+the result by hand. Small logos (3 rows or so) usually need hand-drawing.
+
+`ark-starter` shows its logo from a `UserPromptExpansion` hook, so it appears
+instantly and in color when you type `/hello`, instead of the model typing it
+out. The logo lives in `plugins/ark-starter/assets/banner.txt`; after editing
+it, run `python3 plugins/ark-starter/assets/build_banner.py` to rebuild the
+colored hook output, and update the copy in the skill's SKILL.md.
 
 Bump versions with the `daemon-version-update` skill, or run
 `python3 plugins/daemon/skills/daemon-version-update/scripts/version_bump.py`.
