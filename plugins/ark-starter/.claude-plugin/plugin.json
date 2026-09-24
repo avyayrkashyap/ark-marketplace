@@ -1,0 +1,12 @@
+{
+  "name": "ark-starter",
+  "description": "Starter plugin with an example skill. Copy it to make new plugins.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Avyay Kashyap",
+    "url": "https://github.com/avyayrkashyap"
+  },
+  "repository": "https://github.com/avyayrkashyap/ark-marketplace",
+  "license": "MIT",
+  "keywords": ["starter", "example"]
+}

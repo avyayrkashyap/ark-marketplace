@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ark-starter",
+  "version": "0.1.0",
+  "description": "Starter plugin with an example skill. Copy it to make new plugins.",
+  "author": {
+    "name": "Avyay Kashyap",
+    "url": "https://github.com/avyayrkashyap"
+  },
+  "repository": "https://github.com/avyayrkashyap/ark-marketplace",
+  "license": "MIT",
+  "keywords": ["starter", "example"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ARK Starter",
+        "shortDescription": "Example skill to copy for new plugins",
+        "developerName": "Avyay Kashyap",
+        "category": "Productivity",
+        "defaultPrompt": ["Say hello using the ark-starter skill"]
+      }
+    }
+  }
+}

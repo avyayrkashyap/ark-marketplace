@@ -1,0 +1,20 @@
+{
+  "name": "ark-marketplace",
+  "interface": {
+    "displayName": "ARK Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ark-starter",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ark-starter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
