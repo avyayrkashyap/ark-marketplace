@@ -1,0 +1,12 @@
+{
+  "name": "daemon",
+  "description": "Maintenance tools for plugin authors, starting with semver version bumps.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Avyay Kashyap",
+    "url": "https://github.com/avyayrkashyap"
+  },
+  "repository": "https://github.com/avyayrkashyap/ark-marketplace",
+  "license": "MIT",
+  "keywords": ["semver", "versioning", "maintenance"]
+}

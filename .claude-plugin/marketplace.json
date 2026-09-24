@@ -13,6 +13,12 @@
       "source": "./plugins/ark-starter",
       "description": "Starter plugin with an example skill. Copy it to make new plugins.",
       "category": "productivity"
+    },
+    {
+      "name": "daemon",
+      "source": "./plugins/daemon",
+      "description": "Maintenance tools for plugin authors, starting with semver version bumps.",
+      "category": "development"
     }
   ]
 }

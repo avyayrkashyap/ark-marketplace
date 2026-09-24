@@ -26,6 +26,7 @@ Then open `/plugins` in Codex and install `ark-starter`.
 | Plugin | Description |
 | --- | --- |
 | [ark-starter](plugins/ark-starter) | Starter plugin with an example skill. Copy it to make new plugins. |
+| [daemon](plugins/daemon) | Maintenance tools for plugin authors. `daemon-version-update` bumps plugin versions following semver. |
 
 ## Layout
 
@@ -56,5 +57,8 @@ To turn a logo into terminal art for a skill, run
 `python3 scripts/img2blocks.py path/to/logo.png 60` (needs Pillow) and paste
 the output into a `text` code fence in the skill's SKILL.md.
 
-Bump `version` in both manifests when you release changes. Claude Code only
+Bump versions with the `daemon-version-update` skill, or run
+`python3 plugins/daemon/skills/daemon-version-update/scripts/version_bump.py`.
+It follows semver: edits to existing skills are a patch, new skills are a minor
+bump, and removals, renames or breaking changes are major. Claude Code only
 updates installed plugins when the version changes.
